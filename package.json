@@ -1,0 +1,21 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "backend for eshop application",
+  "main": "app.js",
+  "author": "NYHD",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
